@@ -1,0 +1,9 @@
+{
+  "name": "book-list",
+  "version": "1.0.0",
+  "description": "Test task: BookList",
+  "main": "index.js",
+  "repository": "https://github.com/plexideas/book-list.git",
+  "author": "plexideas",
+  "license": "MIT"
+}
