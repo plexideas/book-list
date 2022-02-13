@@ -4,7 +4,7 @@ export const FALLBACK_BOOKS_API_URL =
 export const ACTION_LABEL = {
     'toread': 'start reading',
     'inprogress': 'finish reading',
-    done: 'return "toread"'
+    done: 'return in «to read»'
 };
 
 export const ACTION_ICON = {
