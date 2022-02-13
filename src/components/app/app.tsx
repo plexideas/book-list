@@ -16,7 +16,6 @@ export const App: VFC = () => {
 
     return (
         <div>
-            <h1>BookList</h1>
             <Tabs>
                 <Tab id="toread" title={`To read (${toReadList.length})`}>
                     <BookList
