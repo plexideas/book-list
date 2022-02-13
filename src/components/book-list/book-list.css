@@ -1,0 +1,14 @@
+@import '../../styles.css';
+
+.bookList {
+    height: var(--content-height);
+    overflow: auto;
+}
+
+.bookContent {
+    border-bottom: 1px solid var(--color-border);
+}
+
+.bookContent:last-of-type {
+    border-bottom: 0;
+}
