@@ -10,6 +10,7 @@
 
 .tabContent {
     height: var(--content-height);
+    overflow: auto;
 }
 
 .tabPanel {
