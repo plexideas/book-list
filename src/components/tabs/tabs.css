@@ -1,0 +1,53 @@
+@import '../../styles.css';
+
+.tabContainer {
+    min-width: 480px;
+    max-width: 1280px;
+    border: 1px solid var(--color-border);
+    display: flex;
+    flex-direction: column;
+}
+
+.tabContent {
+    height: var(--content-height);
+}
+
+.tabPanel {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.tab {
+    list-style: none;
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.tab:first-of-type {
+    border-left: 0;
+}
+
+.tab.selected {
+    border-bottom: 0;
+}
+
+.tabButton {
+    width: 100%;
+    border: none;
+    background-color: white;
+    padding: 16px 0;
+    cursor: pointer;
+}
+
+.tabButton.selected {
+    font-weight: 700;
+}
+
+.hidden {
+    display: none;
+}
