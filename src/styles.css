@@ -1,0 +1,21 @@
+:root {
+    --color-text: #000000;
+    --color-border: #999999;
+    --color-tag: #ddd;
+
+    --content-height: 640px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-text);
+}
+
+ul, li {
+    list-style: none;
+}
